@@ -1,0 +1,12 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Compiled files
+bin/
+*.class
+
+# Data files
+*.dat
+*.txt
