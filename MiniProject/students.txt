@@ -1,2 +1,0 @@
-45,anshika,cs,5,67.0
-67,baadal,cs,5,89.0
