@@ -5,8 +5,7 @@
 
 # Compiled files
 bin/
-*.class
+
 
 # Data files
 *.dat
-*.txt
