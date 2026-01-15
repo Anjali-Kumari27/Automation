@@ -1,0 +1,156 @@
+
+# **Manual Test Case Report**
+
+## **Customer Relationship Management (CRM) System**
+
+---
+
+## **1. Introduction**
+
+This document contains the **manual test cases** for the Customer Relationship Management (CRM) system.
+The purpose of testing is to verify that all CRM features work correctly as per requirements and are user-friendly, secure, and error-free.
+
+Manual testing is performed **without using any automation tools**. All test cases are executed manually by the tester.
+
+--------------------------------------------------------------------------------------------------------------------------------
+## **2. Scope of Testing**
+
+The following modules of the CRM system are tested:
+
+* User Login
+* User Registration
+* Customer Management
+* Search Functionality
+* Update Customer Details
+* Delete Customer Records
+* Logout Functionality
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+## **3. Test Environment**
+
+| Item           | Description         |
+| -------------- | ------------------- |
+| Application    | CRM Web Application |
+| Testing Type   | Manual Testing      |
+| Platform       | Windows             |
+| Browser        | Google Chrome       |
+| Tester         | Manual Tester       |
+| Testing Method | Black Box Testing   |
+
+--------------------------------------------------------------------------------------------------------------------------------
+## **4. Test Case Format**
+
+Each test case contains:
+
+* Test Case ID
+* Test Case Description
+* Test Steps
+* Expected Result
+* Actual Result
+* Status (Pass/Fail)
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+## **5. Manual Test Cases**
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+### **Test Case 1: Login with Valid Credentials**
+
+| Field                 | Description                                                                                     |
+| --------------------- | ----------------------------------------------------------------------------------------------- |
+| Test Case ID          | TC_CRM_01                                                                                       |
+| Test Case Description | Verify login using valid username and password                                                  |
+| Test Steps            | 1. Open CRM application<br>2. Enter valid username<br>3. Enter valid password<br>4. Click Login |
+| Expected Result       | User should login successfully                                                                  |
+| Actual Result         | User logged in successfully                                                                     |
+| Status                | Pass                                                                                            |
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+### **Test Case 2: Login with Invalid Credentials**
+
+| Field                 | Description                                                                        |
+| --------------------- | ---------------------------------------------------------------------------------- |
+| Test Case ID          | TC_CRM_02                                                                          |
+| Test Case Description | Verify login using invalid credentials                                             |
+| Test Steps            | 1. Open CRM application<br>2. Enter invalid username or password<br>3. Click Login |
+| Expected Result       | Error message should be displayed                                                  |
+| Actual Result         | Error message displayed                                                            |
+| Status                | Pass                                                                               |
+
+----------------------------------------------------------------------------------------------------------------------------
+
+### **Test Case 3: Add New Customer**
+
+| Field                 | Description                                                                            |
+| --------------------- | -------------------------------------------------------------------------------------- |
+| Test Case ID          | TC_CRM_03                                                                              |
+| Test Case Description | Verify adding a new customer                                                           |
+| Test Steps            | 1. Login to CRM<br>2. Click Add Customer<br>3. Enter customer details<br>4. Click Save |
+| Expected Result       | Customer should be added successfully                                                  |
+| Actual Result         | Customer added successfully                                                            |
+| Status                | Pass                                                                                   |
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+### **Test Case 4: Search Customer**
+
+| Field                 | Description                                                                   |
+| --------------------- | ----------------------------------------------------------------------------- |
+| Test Case ID          | TC_CRM_04                                                                     |
+| Test Case Description | Verify searching customer by name or ID                                       |
+| Test Steps            | 1. Login to CRM<br>2. Enter customer name/ID in search box<br>3. Click Search |
+| Expected Result       | Customer details should be displayed                                          |
+| Actual Result         | Customer details displayed                                                    |
+| Status                | Pass                                                                          |
+
+------------------------------------------------------------------------------------------------------------------------------
+
+### **Test Case 5: Update Customer Details**
+
+| Field                 | Description                                                                                    |
+| --------------------- | ---------------------------------------------------------------------------------------------- |
+| Test Case ID          | TC_CRM_05                                                                                      |
+| Test Case Description | Verify updating customer information                                                           |
+| Test Steps            | 1. Login to CRM<br>2. Search customer<br>3. Click Edit<br>4. Update details<br>5. Click Update |
+| Expected Result       | Customer details should be updated                                                             |
+| Actual Result         | Customer details updated                                                                       |
+| Status                | Pass                                                                                           |
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+### **Test Case 6: Delete Customer**
+
+| Field                 | Description                                              |
+| --------------------- | -------------------------------------------------------- |
+| Test Case ID          | TC_CRM_06                                                |
+| Test Case Description | Verify deleting customer record                          |
+| Test Steps            | 1. Login to CRM<br>2. Search customer<br>3. Click Delete |
+| Expected Result       | Customer record should be deleted                        |
+| Actual Result         | Customer deleted successfully                            |
+| Status                | Pass                                                     |
+
+---
+
+### **Test Case 7: Logout Functionality**
+
+| Field                 | Description                                 |
+| --------------------- | ------------------------------------------- |
+| Test Case ID          | TC_CRM_07                                   |
+| Test Case Description | Verify logout functionality                 |
+| Test Steps            | 1. Login to CRM<br>2. Click Logout          |
+| Expected Result       | User should logout and return to login page |
+| Actual Result         | User logged out successfully                |
+| Status                | Pass                                        |
+
+---
+
+## **6. Test Summary Report**
+
+| Total Test Cases | Passed | Failed |
+| ---------------- | ------ | ------ |
+| 7                | 7      | 0      |
+
+--------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,164 @@
+# **Manual Test Case Report**
+
+## **Healthcare System**
+
+---
+
+## **1. Introduction**
+
+This document contains the **manual test cases** for the Healthcare System.
+The purpose of testing is to ensure that the system allows **patients, doctors, and administrators** to manage healthcare services smoothly, securely, and without errors.
+
+All testing is performed **manually without using any automation tools**.
+
+---
+
+## **2. Scope of Testing**
+
+The following modules of the Healthcare System are tested:
+
+* User Registration
+* User Login
+* Patient Record Management
+* Appointment Booking
+* Doctor Availability
+* Prescription Management
+* Logout Functionality
+
+---
+
+## **3. Test Environment**
+
+| Item           | Description       |
+| -------------- | ----------------- |
+| Application    | Healthcare System |
+| Testing Type   | Manual Testing    |
+| Platform       | Windows           |
+| Browser        | Google Chrome     |
+| Tester         | Manual Tester     |
+| Testing Method | Black Box Testing |
+
+---
+
+## **4. Test Case Format**
+
+Each test case includes:
+
+* Test Case ID
+* Test Case Description
+* Test Steps
+* Expected Result
+* Actual Result
+* Status (Pass/Fail)
+
+---
+
+## **5. Manual Test Cases**
+
+---
+
+### **Test Case 1: User Registration with Valid Details**
+
+| Field                 | Description                                                                                      |
+| --------------------- | ------------------------------------------------------------------------------------------------ |
+| Test Case ID          | TC_HCS_01                                                                                        |
+| Test Case Description | Verify user registration using valid details                                                     |
+| Test Steps            | 1. Open healthcare system<br>2. Click Register<br>3. Enter valid user details<br>4. Click Submit |
+| Expected Result       | User should be registered successfully                                                           |
+| Actual Result         | User registered successfully                                                                     |
+| Status                | Pass                                                                                             |
+
+---
+
+### **Test Case 2: Login with Valid Credentials**
+
+| Field                 | Description                                                                         |
+| --------------------- | ----------------------------------------------------------------------------------- |
+| Test Case ID          | TC_HCS_02                                                                           |
+| Test Case Description | Verify login using valid username and password                                      |
+| Test Steps            | 1. Open healthcare system<br>2. Enter valid username and password<br>3. Click Login |
+| Expected Result       | User should login successfully                                                      |
+| Actual Result         | User logged in successfully                                                         |
+| Status                | Pass                                                                                |
+
+---
+
+### **Test Case 3: Add Patient Record**
+
+| Field                 | Description                                                                             |
+| --------------------- | --------------------------------------------------------------------------------------- |
+| Test Case ID          | TC_HCS_03                                                                               |
+| Test Case Description | Verify adding a new patient record                                                      |
+| Test Steps            | 1. Login to system<br>2. Click Add Patient<br>3. Enter patient details<br>4. Click Save |
+| Expected Result       | Patient record should be added successfully                                             |
+| Actual Result         | Patient record added successfully                                                       |
+| Status                | Pass                                                                                    |
+
+---
+
+### **Test Case 4: Book Appointment**
+
+| Field                 | Description                                                                                    |
+| --------------------- | ---------------------------------------------------------------------------------------------- |
+| Test Case ID          | TC_HCS_04                                                                                      |
+| Test Case Description | Verify appointment booking                                                                     |
+| Test Steps            | 1. Login to system<br>2. Select doctor<br>3. Choose date and time<br>4. Click Book Appointment |
+| Expected Result       | Appointment should be booked successfully                                                      |
+| Actual Result         | Appointment booked successfully                                                                |
+| Status                | Pass                                                                                           |
+
+---
+
+### **Test Case 5: View Prescription**
+
+| Field                 | Description                                  |
+| --------------------- | -------------------------------------------- |
+| Test Case ID          | TC_HCS_05                                    |
+| Test Case Description | Verify viewing prescription details          |
+| Test Steps            | 1. Login to system<br>2. Open patient record |
+| Expected Result       | Prescription details should be displayed     |
+| Actual Result         | Prescription displayed                       |
+| Status                | Pass                                         |
+
+---
+
+### **Test Case 6: Update Patient Record**
+
+| Field                 | Description                                                                                      |
+| --------------------- | ------------------------------------------------------------------------------------------------ |
+| Test Case ID          | TC_HCS_06                                                                                        |
+| Test Case Description | Verify updating patient information                                                              |
+| Test Steps            | 1. Login to system<br>2. Search patient<br>3. Click Edit<br>4. Update details<br>5. Click Update |
+| Expected Result       | Patient details should be updated                                                                |
+| Actual Result         | Patient details updated                                                                          |
+| Status                | Pass                                                                                             |
+
+---
+
+### **Test Case 7: Logout Functionality**
+
+| Field                 | Description                                 |
+| --------------------- | ------------------------------------------- |
+| Test Case ID          | TC_HCS_07                                   |
+| Test Case Description | Verify logout functionality                 |
+| Test Steps            | 1. Login to system<br>2. Click Logout       |
+| Expected Result       | User should logout and return to login page |
+| Actual Result         | User logged out successfully                |
+| Status                | Pass                                        |
+
+---
+
+## **6. Test Summary Report**
+
+| Total Test Cases | Passed | Failed |
+| ---------------- | ------ | ------ |
+| 7                | 7      | 0      |
+
+---
+
+## **7. Conclusion**
+
+All manual test cases for the Healthcare System were executed successfully.
+The system is **secure, reliable, and working as per healthcare requirements**.
+
+---

@@ -1,0 +1,162 @@
+# **Manual Test Case Report**
+
+## **Automated Banking Website**
+
+---
+
+## **1. Introduction**
+
+This document contains the **manual test cases** for the Automated Banking Website.
+The purpose of testing is to ensure that users can **securely perform banking operations** such as login, fund transfer, balance check, and transaction management without errors.
+
+All testing is performed **manually without using any automation tools**.
+
+---
+
+## **2. Scope of Testing**
+
+The following modules of the Automated Banking Website are tested:
+
+* User Registration
+* User Login
+* Account Balance Inquiry
+* Fund Transfer
+* Transaction History
+* Bill Payment
+* Logout Functionality
+
+---
+
+## **3. Test Environment**
+
+| Item           | Description               |
+| -------------- | ------------------------- |
+| Application    | Automated Banking Website |
+| Testing Type   | Manual Testing            |
+| Platform       | Windows                   |
+| Browser        | Google Chrome             |
+| Tester         | Manual Tester             |
+| Testing Method | Black Box Testing         |
+
+---
+
+## **4. Test Case Format**
+
+Each test case includes:
+
+* Test Case ID
+* Test Case Description
+* Test Steps
+* Expected Result
+* Actual Result
+* Status (Pass/Fail)
+
+---
+
+## **5. Manual Test Cases**
+
+---
+
+### **Test Case 1: User Registration with Valid Details**
+
+| Field                 | Description                                                                                        |
+| --------------------- | -------------------------------------------------------------------------------------------------- |
+| Test Case ID          | TC_BANK_01                                                                                         |
+| Test Case Description | Verify user registration using valid details                                                       |
+| Test Steps            | 1. Open banking website<br>2. Click Register<br>3. Enter valid customer details<br>4. Click Submit |
+| Expected Result       | User should be registered successfully                                                             |
+| Actual Result         | User registered successfully                                                                       |
+| Status                | Pass                                                                                               |
+
+---
+
+### **Test Case 2: Login with Valid Credentials**
+
+| Field                 | Description                                                                       |
+| --------------------- | --------------------------------------------------------------------------------- |
+| Test Case ID          | TC_BANK_02                                                                        |
+| Test Case Description | Verify login using valid username and password                                    |
+| Test Steps            | 1. Open banking website<br>2. Enter valid username and password<br>3. Click Login |
+| Expected Result       | User should login successfully                                                    |
+| Actual Result         | User logged in successfully                                                       |
+| Status                | Pass                                                                              |
+
+---
+
+### **Test Case 3: Check Account Balance**
+
+| Field                 | Description                                             |
+| --------------------- | ------------------------------------------------------- |
+| Test Case ID          | TC_BANK_03                                              |
+| Test Case Description | Verify account balance inquiry                          |
+| Test Steps            | 1. Login to banking website<br>2. Click Account Balance |
+| Expected Result       | Current account balance should be displayed             |
+| Actual Result         | Account balance displayed                               |
+| Status                | Pass                                                    |
+
+---
+
+### **Test Case 4: Fund Transfer**
+
+| Field                 | Description                                                                                                                   |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Test Case ID          | TC_BANK_04                                                                                                                    |
+| Test Case Description | Verify fund transfer to another account                                                                                       |
+| Test Steps            | 1. Login to banking website<br>2. Click Fund Transfer<br>3. Enter beneficiary details<br>4. Enter amount<br>5. Click Transfer |
+| Expected Result       | Amount should be transferred successfully                                                                                     |
+| Actual Result         | Fund transferred successfully                                                                                                 |
+| Status                | Pass                                                                                                                          |
+
+---
+
+### **Test Case 5: View Transaction History**
+
+| Field                 | Description                                                 |
+| --------------------- | ----------------------------------------------------------- |
+| Test Case ID          | TC_BANK_05                                                  |
+| Test Case Description | Verify viewing transaction history                          |
+| Test Steps            | 1. Login to banking website<br>2. Click Transaction History |
+| Expected Result       | Transaction history should be displayed                     |
+| Actual Result         | Transaction history displayed                               |
+| Status                | Pass                                                        |
+
+---
+
+### **Test Case 6: Bill Payment**
+
+| Field                 | Description                                                                                   |
+| --------------------- | --------------------------------------------------------------------------------------------- |
+| Test Case ID          | TC_BANK_06                                                                                    |
+| Test Case Description | Verify bill payment functionality                                                             |
+| Test Steps            | 1. Login to banking website<br>2. Click Bill Payment<br>3. Enter bill details<br>4. Click Pay |
+| Expected Result       | Bill payment should be successful                                                             |
+| Actual Result         | Bill paid successfully                                                                        |
+| Status                | Pass                                                                                          |
+
+---
+
+### **Test Case 7: Logout Functionality**
+
+| Field                 | Description                                    |
+| --------------------- | ---------------------------------------------- |
+| Test Case ID          | TC_BANK_07                                     |
+| Test Case Description | Verify logout functionality                    |
+| Test Steps            | 1. Login to banking website<br>2. Click Logout |
+| Expected Result       | User should logout and return to login page    |
+| Actual Result         | User logged out successfully                   |
+| Status                | Pass                                           |
+
+---
+
+## **6. Test Summary Report**
+
+| Total Test Cases | Passed | Failed |
+| ---------------- | ------ | ------ |
+| 7                | 7      | 0      |
+
+---
+
+## **7. Conclusion**
+
+All manual test cases for the Automated Banking Website were executed successfully.
+The system is **secure, reliable, and working as expected**.

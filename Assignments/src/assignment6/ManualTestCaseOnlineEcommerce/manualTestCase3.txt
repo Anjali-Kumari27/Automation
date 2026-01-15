@@ -1,0 +1,177 @@
+
+# **Manual Test Case Report**
+
+## **Online E-Commerce Website**
+
+---
+
+## **1. Introduction**
+
+This document contains the **manual test cases** for the Online E-Commerce Website.
+The goal of testing is to ensure that users can **browse products, place orders, make payments, and manage their accounts** smoothly.
+
+All testing is performed **manually without using any automation tools**.
+
+---
+
+## **2. Scope of Testing**
+
+The following modules of the e-commerce website are tested:
+
+* User Registration
+* User Login
+* Product Search and Browse
+* Add to Cart
+* Checkout Process
+* Payment Gateway
+* Order History
+* Logout Functionality
+
+---
+
+## **3. Test Environment**
+
+| Item           | Description               |
+| -------------- | ------------------------- |
+| Application    | Online E-Commerce Website |
+| Testing Type   | Manual Testing            |
+| Platform       | Windows                   |
+| Browser        | Google Chrome             |
+| Tester         | Manual Tester             |
+| Testing Method | Black Box Testing         |
+
+---
+
+## **4. Test Case Format**
+
+Each test case includes:
+
+* Test Case ID
+* Test Case Description
+* Test Steps
+* Expected Result
+* Actual Result
+* Status (Pass/Fail)
+
+---
+
+## **5. Manual Test Cases**
+
+---
+
+### **Test Case 1: User Registration with Valid Details**
+
+| Field                 | Description                                                                                       |
+| --------------------- | ------------------------------------------------------------------------------------------------- |
+| Test Case ID          | TC_ECOM_01                                                                                        |
+| Test Case Description | Verify user registration using valid details                                                      |
+| Test Steps            | 1. Open e-commerce website<br>2. Click Register<br>3. Enter valid user details<br>4. Click Submit |
+| Expected Result       | User should be registered successfully                                                            |
+| Actual Result         | User registered successfully                                                                      |
+| Status                | Pass                                                                                              |
+
+---
+
+### **Test Case 2: Login with Valid Credentials**
+
+| Field                 | Description                                                               |
+| --------------------- | ------------------------------------------------------------------------- |
+| Test Case ID          | TC_ECOM_02                                                                |
+| Test Case Description | Verify login using valid credentials                                      |
+| Test Steps            | 1. Open website<br>2. Enter valid username and password<br>3. Click Login |
+| Expected Result       | User should login successfully                                            |
+| Actual Result         | User logged in successfully                                               |
+| Status                | Pass                                                                      |
+
+---
+
+### **Test Case 3: Search Product**
+
+| Field                 | Description                                                                   |
+| --------------------- | ----------------------------------------------------------------------------- |
+| Test Case ID          | TC_ECOM_03                                                                    |
+| Test Case Description | Verify product search functionality                                           |
+| Test Steps            | 1. Login to website<br>2. Enter product name in search bar<br>3. Click Search |
+| Expected Result       | Matching products should be displayed                                         |
+| Actual Result         | Products displayed                                                            |
+| Status                | Pass                                                                          |
+
+---
+
+### **Test Case 4: Add Product to Cart**
+
+| Field                 | Description                                                    |
+| --------------------- | -------------------------------------------------------------- |
+| Test Case ID          | TC_ECOM_04                                                     |
+| Test Case Description | Verify adding product to cart                                  |
+| Test Steps            | 1. Search product<br>2. Select product<br>3. Click Add to Cart |
+| Expected Result       | Product should be added to cart                                |
+| Actual Result         | Product added to cart                                          |
+| Status                | Pass                                                           |
+
+---
+
+### **Test Case 5: Checkout Process**
+
+| Field                 | Description                                                    |
+| --------------------- | -------------------------------------------------------------- |
+| Test Case ID          | TC_ECOM_05                                                     |
+| Test Case Description | Verify checkout functionality                                  |
+| Test Steps            | 1. Open cart<br>2. Click Checkout<br>3. Enter delivery details |
+| Expected Result       | Checkout page should be displayed                              |
+| Actual Result         | Checkout page displayed                                        |
+| Status                | Pass                                                           |
+
+---
+
+### **Test Case 6: Payment Process**
+
+| Field                 | Description                                                             |
+| --------------------- | ----------------------------------------------------------------------- |
+| Test Case ID          | TC_ECOM_06                                                              |
+| Test Case Description | Verify payment using valid details                                      |
+| Test Steps            | 1. Proceed to payment<br>2. Enter valid payment details<br>3. Click Pay |
+| Expected Result       | Payment should be successful                                            |
+| Actual Result         | Payment successful                                                      |
+| Status                | Pass                                                                    |
+
+---
+
+### **Test Case 7: View Order History**
+
+| Field                 | Description                               |
+| --------------------- | ----------------------------------------- |
+| Test Case ID          | TC_ECOM_07                                |
+| Test Case Description | Verify viewing order history              |
+| Test Steps            | 1. Login to website<br>2. Click My Orders |
+| Expected Result       | Order history should be displayed         |
+| Actual Result         | Order history displayed                   |
+| Status                | Pass                                      |
+
+---
+
+### **Test Case 8: Logout Functionality**
+
+| Field                 | Description                                 |
+| --------------------- | ------------------------------------------- |
+| Test Case ID          | TC_ECOM_08                                  |
+| Test Case Description | Verify logout functionality                 |
+| Test Steps            | 1. Login to website<br>2. Click Logout      |
+| Expected Result       | User should logout and return to login page |
+| Actual Result         | User logged out successfully                |
+| Status                | Pass                                        |
+
+---
+
+## **6. Test Summary Report**
+
+| Total Test Cases | Passed | Failed |
+| ---------------- | ------ | ------ |
+| 8                | 8      | 0      |
+
+---
+
+## **7. Conclusion**
+
+All manual test cases for the Online E-Commerce Website were executed successfully.
+The system is **functional, user-friendly, and meets all business requirements**.
